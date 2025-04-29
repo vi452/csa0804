@@ -1,0 +1,9 @@
+List=[1,2,4,566,46,4788,38,23]
+max=List[0]
+min=List[0]
+for i in List:
+    if i>max:
+        max=i
+    if i<min:
+        min=i
+print(f"The Max and Min Elements in a list: {max} and {min}")
