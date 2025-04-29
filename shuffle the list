@@ -1,0 +1,6 @@
+num_list=[7,2,5,7,2,90,1,23,4]
+least=num_list[1]
+for i in num_list:
+    if i<least:
+        least=i
+print(f"The smallest number in the list:{least}")
