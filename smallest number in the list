@@ -1,0 +1,3 @@
+n=[1,2,3,4,5]
+smallest=min(n)
+print("the smallest number in the list is:",smallest)
