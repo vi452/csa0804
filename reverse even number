@@ -1,0 +1,7 @@
+list1=[1,2,3,4,5,6,8,12,24,6,90,133]
+new_list=[]
+for i in list1:
+    if i%2!=0:
+        new_list.append(i)
+        
+print(f"The list formed witout Even Numbers:{new_list}")
