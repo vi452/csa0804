@@ -1,0 +1,4 @@
+list1=[1,2,4,578,8,79,6]
+list2=[456,2,7,4,70,8,19]
+list3=list1 + list2
+print(list3)
