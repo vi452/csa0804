@@ -1,0 +1,6 @@
+#check whether positive or negative
+n=int(input("entre the number"))
+if n>0:
+print("the number is positive")
+else:
+print("the number is negative")
