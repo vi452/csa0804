@@ -1,0 +1,6 @@
+email = input("Enter an email address: ")
+
+if "@" in email and "." in email and email.index("@") < email.rindex("."):
+    print("Valid email address")
+else:
+    print("Invalid email address")
